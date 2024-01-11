@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(gabriel-heinzer-EUzk9BIEq6M-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 100%;
+  width: 300px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.intro,
+.projects,
+.contact {
+  margin-bottom: 30px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+form a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+form a:hover {
+  color: #ffcc00;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #ffcc00;
+}
